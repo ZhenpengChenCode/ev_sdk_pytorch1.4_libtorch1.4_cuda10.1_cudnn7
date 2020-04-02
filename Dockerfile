@@ -22,8 +22,8 @@ RUN sed -i s@/archive.ubuntu.com/@/mirrors.aliyun.com/@g /etc/apt/sources.list
 RUN apt-get clean
 RUN apt-get update
 
-RUN apt install python-pip
-RUN apt install python3-pip
+#RUN apt install python-pip
+#RUN apt install python3-pip
 
 RUN apt-get update \
     && apt-get install -y \
