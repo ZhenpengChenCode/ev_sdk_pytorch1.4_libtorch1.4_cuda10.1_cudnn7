@@ -17,3 +17,5 @@ RUN mkdir -p /home/ev_sdk
 WORKDIR /home/ev_sdk
 
 RUN git clone https://github.com/ExtremeMart/dev-docs.git
+
+RUN pip install ipdb
